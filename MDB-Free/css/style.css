@@ -1,0 +1,19 @@
+.active-pink input[type=text] {
+    border-bottom: 1px solid #cacaca;
+    box-shadow: 0 1px 0 0 #cacaca;
+}
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #000000;
+    box-shadow: 0 1px 0 0 #000000;
+}
+.testimonial-card .avatar {
+    border-radius: 50%;
+    width: 120px;
+    height: auto;
+    margin: -65px auto 0;
+}
+.testimonial-card .avatar img {
+    border: 5px solid #fff;
+    background: #FFF;
+    width: 100%;
+}
